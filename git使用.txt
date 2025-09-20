@@ -1,0 +1,10 @@
+git clone ~~(地址)
+git checkout -b my-feature   (创建my-feature分支)
+git add .   (在分支上增加修改的东西)
+git commit -m 'test'  (在分支是保存修改的东西并且提供注释)
+git push origin my-feature  (上传到github里面的my-feature分支中)
+git checkout main (切换到本地的main主分支中)
+git pull origin main (拉取远端的main主分支)
+git checkout my my-feature (切换my-feature分支)
+git rebase main  (合并main主分支，可能会有冲突)
+git push origin my-feature（将最新合并好的my-feature分支上传到远端中）
